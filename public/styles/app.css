@@ -1,0 +1,60 @@
+body footer {
+  text-align: center;
+}
+
+.browsehappy {
+  background: #ccc;
+  color: #000;
+  margin: .2em 0;
+  padding: .2em 0;
+}
+
+body span {
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+}
+body section .content .content--project a,
+body footer .content .content--project a {
+  text-decoration: none;
+}
+body section .content .content--project a:hover,
+body footer .content .content--project a:hover {
+  color: #2f353a;
+}
+body section .content .content--project .github-btn,
+body footer .content .content--project .github-btn {
+  border: 2px solid #2f353a;
+  border-radius: 5px; 
+  display: block;
+  width: 14rem;
+}
+body section .content .content--project .github-btn:hover,
+body footer .content .content--project .github-btn:hover {
+  box-shadow: 1px 1px 5px 1px #ccc;
+}
+body section .content .content--project .github-btn div,
+body footer .content .content--project .github-btn div {
+  font-family: 'Inconsolata';
+  font-size: 16px;
+  line-height: 1; 
+  margin: 10px 15px;
+}
+body section .content .content--project .github-btn div img,
+body footer .content .content--project .github-btn div img {
+  margin-top: -3px;
+}
+@media screen and (max-width: 520px) {
+  body section .content .first-h1,
+  body footer .content .first-h1 {
+    width: 19rem;
+  }
+  body section .content .second-h1,
+  body footer .content .second-h1 {
+    width: 12rem;
+  }
+  body section .content .third-h1,
+  body footer .content .third-h1 {
+    width: 13rem;
+  }
+}
